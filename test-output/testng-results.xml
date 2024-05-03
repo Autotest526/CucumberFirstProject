@@ -2,78 +2,78 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T16:19:54 IST" name="Mysuite" finished-at="2024-04-24T16:20:10 IST" duration-ms="16569">
+  <suite started-at="2024-05-03T12:29:16 IST" name="Default suite" finished-at="2024-05-03T12:29:46 IST" duration-ms="29655">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@13b6aecc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@291caca8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-24T16:19:54 IST" name="Mytest" finished-at="2024-04-24T16:20:10 IST" duration-ms="16569">
+    <test started-at="2024-05-03T12:29:16 IST" name="Default test" finished-at="2024-05-03T12:29:46 IST" duration-ms="29655">
       <class name="TestRunner.Testrun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Testrun@13b6aecc]" started-at="2024-04-24T16:19:54 IST" name="setUpClass" finished-at="2024-04-24T16:19:54 IST" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Testrun@291caca8]" started-at="2024-05-03T12:29:16 IST" name="setUpClass" finished-at="2024-05-03T12:29:16 IST" duration-ms="392" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@61f6d381]]>
+                <![CDATA[org.testng.TestRunner@4a2e7bcb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@13b6aecc]" started-at="2024-04-24T16:19:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-24T16:20:02 IST" duration-ms="7653" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@291caca8]" started-at="2024-05-03T12:29:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-03T12:29:27 IST" duration-ms="10438" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Succesfully login with valid credentails"]]>
+                <![CDATA["Blogs layers of the pyramid"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login"]]>
+                <![CDATA["Blogs"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@13b6aecc]" started-at="2024-04-24T16:20:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-24T16:20:06 IST" duration-ms="4299" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@291caca8]" started-at="2024-05-03T12:29:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-03T12:29:36 IST" duration-ms="9026" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Login Data Driven"]]>
+                <![CDATA["Blogs understanding the selenium"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login"]]>
+                <![CDATA["Blogs"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@13b6aecc]" started-at="2024-04-24T16:20:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-24T16:20:10 IST" duration-ms="4161" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Testrun@291caca8]" started-at="2024-05-03T12:29:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-03T12:29:46 IST" duration-ms="9719" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Login Data Driven"]]>
+                <![CDATA["Blogs Hard and soft Assertions"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login"]]>
+                <![CDATA["Blogs"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Testrun@13b6aecc]" started-at="2024-04-24T16:20:10 IST" name="tearDownClass" finished-at="2024-04-24T16:20:10 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Testrun@291caca8]" started-at="2024-05-03T12:29:46 IST" name="tearDownClass" finished-at="2024-05-03T12:29:46 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- TestRunner.Testrun -->
-    </test> <!-- Mytest -->
-  </suite> <!-- Mysuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

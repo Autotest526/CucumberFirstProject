@@ -1,7 +1,10 @@
 Feature: Login
 
-Scenario: Succesfully login with valid credentails
-      Given user lauch Chrome browser
+   #All the times backgorund sccenario will execute before execute the  scenario outline and that browser is not 
+   #getting closed dis advantage should not execute
+      
+   Scenario: Succesfully login with valid credentails
+      Given user lauch Chrome browsers
       When user open URL "https://practicetestautomation.com/practice-test-login/";
       And user enter username  as "student"
       And user enter password as "Password123"
@@ -12,8 +15,8 @@ Scenario: Succesfully login with valid credentails
       And close the browser
       
       
-Scenario Outline: Login Data Driven
-     Given user lauch Chrome browser
+   Scenario Outline: Login Data Driven
+      Given user lauch Chrome browsers
       When user open URL "https://practicetestautomation.com/practice-test-login/";
       And user enter username  as "<email>"
       And user enter password as "<password>"

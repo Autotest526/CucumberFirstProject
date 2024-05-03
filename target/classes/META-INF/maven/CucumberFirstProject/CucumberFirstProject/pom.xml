@@ -163,7 +163,7 @@
           <version>3.2.5</version>
           <configuration>
              <suiteXmlFiles>
-                 <suiteXmlFile>CucumberTest.xml</suiteXmlFile>
+                 <suiteXmlFile>ParallelTest.xml</suiteXmlFile>
              </suiteXmlFiles>
           </configuration>
         </plugin>

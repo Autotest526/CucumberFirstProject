@@ -1,6 +1,7 @@
 package TestRunner;
 
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
@@ -10,8 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
     (
-		features=".//Features/Login.feature",
-		glue="StepDefination",
+		features={".//Features/Blogs.feature"},
+		glue={"StepDefination","TestBase"},
 		dryRun=false,
 		monochrome=true,
 		plugin= {"pretty", "html:test-output.html"}
@@ -19,4 +20,10 @@ import io.cucumber.testng.CucumberOptions;
 	)
 public class Testrun extends AbstractTestNGCucumberTests {
 
+	/*@Override
+	@DataProvider(parallel=true)
+	public Object[][] scenarios()
+	{
+		return super.scenarios();
+	}*/
 }

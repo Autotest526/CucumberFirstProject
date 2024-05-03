@@ -23,9 +23,9 @@ public class LoginPage {
 	@FindBy(xpath="//a[contains(text(),'Log out')]") WebElement logoutBtn;
 	
 	
-	public void Setusername(String uemail)
+	public void Setusername(String uname)
 	{
-		textEmail.sendKeys(uemail);
+		textEmail.sendKeys(uname);
 	}
 	
 	public void Setpassword(String upass)
